@@ -273,6 +273,17 @@
     </dependency>
     <dependency>
       <groupId>org.apache.apex</groupId>
+      <artifactId>malhar-kafka-common</artifactId>
+      <version>${malhar.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>*</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency> 
+    <dependency>
+      <groupId>org.apache.apex</groupId>
       <artifactId>malhar-contrib</artifactId>
       <version>${malhar.version}</version>
     </dependency>
