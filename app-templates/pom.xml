@@ -182,6 +182,7 @@
     <module>database-to-hdfs</module>
     <module>hdfs-part-file-copy</module>
     <module>hdfs-sync</module>
+    <module>hdfs-to-s3-sync</module>
     <module>hdfs-to-kafka-sync</module>
     <module>kafka-to-hdfs-filter</module>
     <module>kafka-to-hdfs-sync</module>
