@@ -179,6 +179,12 @@
 	
   <modules>
     <!-- Add individual app templates as modules here -->
+    <module>database-to-hdfs</module>
+    <module>hdfs-part-file-copy</module>
+    <module>hdfs-sync</module>
+    <module>hdfs-to-kafka-sync</module>
+    <module>kafka-to-hdfs-filter</module>
+    <module>kafka-to-hdfs-sync</module>
     <module>database-to-database-sync</module>
     <module>hdfs-to-hdfs-filter-transform</module>
     <module>hdfs-line-copy</module>
